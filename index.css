@@ -1,5 +1,5 @@
 body {
-	background-color: #13aff0;
+	background-color: #FAFAFA;
 }
 h1 {
 	text-align: center;
@@ -32,6 +32,6 @@ li a:hover {
 	margin-top: 50px;
 }
 #information {
-	background-color: #dddddd;
+	background-color: #13aff0;
 	width: 100%;
 }
