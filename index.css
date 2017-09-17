@@ -4,7 +4,8 @@ body {
 h1 {
 	text-align: center;
 }
-.topbarLink {
+.topbar {
+	list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
