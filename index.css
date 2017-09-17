@@ -29,8 +29,9 @@ li a:hover {
 } 
 #titleText {
 	font-size: 50px;
-	margin-top: -50px;
+	margin-top: -10px;
 }
 #information {
 	background-color: #dddddd;
+	width: 100%;
 }
