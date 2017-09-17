@@ -10,6 +10,9 @@ h1 {
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
+	position: fixed;
+        top: 0;
+        width: 100%;
 }
 li {
 	float: left;
@@ -26,5 +29,5 @@ li a:hover {
 } 
 #titleText {
 	font-size: 50px;
-	margin-top: -100px;
+	margin-top: -50px;
 }
