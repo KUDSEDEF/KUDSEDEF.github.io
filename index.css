@@ -14,17 +14,17 @@ h1 {
         top: 0;
         width: 100%;
 }
-.topBarLink li {
+li {
 	float: left;
 }
-.topBarLink li a {
+li a {
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
-.topBarLink li a:hover {
+li a:hover {
 	background-color: #111;
 } 
 #titleText {
