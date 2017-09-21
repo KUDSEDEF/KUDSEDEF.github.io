@@ -24,6 +24,10 @@ li a {
 li a:hover {
 	background-color: #111;
 } 
+#profPic {
+	top-margin: 50px;
+	width: 95%;
+}
 #information {
 	background-color: #13aff0;
 	width: 100%;
