@@ -31,6 +31,28 @@ li a:hover {
 	background-color: #13aff0;
 	width: 100%;
 }
+#gallery {
+	background-color: #ffffff;
+	width: 100%;
+	margin: auto;
+}
+.slideShowLeft {
+	background-color: #000000;
+	border: none;
+	color: white;
+}
+slideShowLeft:hover {
+	background-color: #333;
+}
+.slideShowRight {
+	background-color: #000000;
+	border: none;
+	color: white;
+}
+slideShowRight:hover {
+	background-color: #333;
+}
+	
 .sidenavr {
     	height: 100%;
     	width: 0;
