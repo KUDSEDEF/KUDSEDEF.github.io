@@ -25,18 +25,48 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
-//
-var modal = document.getElementById('myModal');
-var btn = document.getElementById("myBtn");
+//Info
+var mInfo = document.getElementById('mInfo');
+var bInfo = document.getElementById("bInfo");
 var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
+bInfo.onclick = function() {
+    mInfo.style.display = "block";
 }
 span.onclick = function() {
-    modal.style.display = "none";
+    mInfo.style.display = "none";
 }
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (event.target == mInfo) {
+        mInfo.style.display = "none";
+    }
+}
+//Gallery
+var mGallery = document.getElementById('mGallery');
+var bGallery = document.getElementById("bGallery");
+var span = document.getElementsByClassName("close")[0];
+bGallery.onclick = function() {
+    mGallery.style.display = "block";
+}
+span.onclick = function() {
+    mGallery.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == mGallery) {
+        mGallery.style.display = "none";
+    }
+}
+//Members
+var mMembers = document.getElementById('mMembers');
+var bMembers = document.getElementById("bMembers");
+var span = document.getElementsByClassName("close")[0];
+bMembers.onclick = function() {
+    mMembers.style.display = "block";
+}
+span.onclick = function() {
+    mMembers.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == mMembers) {
+        mMembers.style.display = "none";
     }
 }
