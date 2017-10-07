@@ -8,8 +8,8 @@ body {
 	overflow: hidden;
 	background-color: #111;
 	position: fixed;
-        top: 0;
-        width: 100%;
+  top: 0;
+  width: 100%;
 }
 li {
 	float: left;
@@ -52,7 +52,6 @@ slideShowLeft:hover {
 slideShowRight:hover {
 	background-color: #333;
 }
-	
 .sidenavr {
     	height: 100%;
     	width: 0;
@@ -66,7 +65,6 @@ slideShowRight:hover {
     	padding-top: 40px;
 	padding-left: 10px;
 }
-
 .sidenavr a {
     	padding: 8px 8px 8px 32px;
     	text-decoration: none;
@@ -96,9 +94,8 @@ slideShowRight:hover {
     	overflow-x: hidden;
     	transition: 0.5s;
     	padding-top: 40px;
-	padding-left: 10px;
+			padding-left: 10px;
 }
-
 .sidenavl a {
     	padding: 8px 8px 8px 32px;
     	text-decoration: none;
@@ -107,11 +104,9 @@ slideShowRight:hover {
     	display: block;
     	transition: 0.3s;
 }
-
 .sidenavl a:hover {
     	color: #f1f1f1;
 }
-
 .sidenavl .closebtn {
     	position: absolute;
     	top: 0;
