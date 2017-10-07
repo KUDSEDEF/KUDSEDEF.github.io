@@ -1,171 +1,118 @@
-<!DOCTYPE html>
+<DOCTYPEhtml>
 <html>
-<head>
-  <title>KUD-Sedef</title>
-  <meta charset="UTF-8">
-  <meta content="width = device-width, initial-scale = 0.5" name="viewport">
-  <link href="index.css" rel="stylesheet" type="text/css">
-  <script src="index.js">
-  </script>
-</head>
-<body>
-  <ul class="topBar">
-    <li>
-      <a><img height="25px" src="150px-Coat_of_Arms_of_Bosnia_and_Herzegovina_(1992-1998).svg.png"></a>
-    </li>
-    <li>
-      <a href="#home">KUD-Sedef</a>
-    </li>
-    <li>
-      <a href = "#Info">Info</a>
-    </li>
-    <li>
-      <a><button onclick="location.href = '#mGallery'">Gallery</button></a>
-    </li>
-    <li>
-      <a><button id = "bMembers">Members</button></a>
-    </li>
-    <li>
-      <a href="https://www.facebook.com/KudSedefLTD.NYC/" target="_blank">KUD-Sedef Facebook</a>
-    </li>
-    <li>
-      <a><span onclick="openNavl()">Upcoming Performances</span></a>
-    </li>
-    <li>
-      <a><span onclick="openNavr()">About</span></a>
-    </li>
-  </ul>
-  <p id="home"></p>
-  <div class="sidenavl" id="mySidenavl" style="background-color: #dddddd;">
-    <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a><br>
-    <h2>Poconos</h2>
-    <p>Time:TBA</p>
-    <p>Location:TBA</p>
-    <h2>Day of the Bosnian Army</h2>
-    <p>Time:TBA</p>
-    <p>Location:TBA</p>
-  </div>
-  <div class="sidenavr" id="mySidenavr" style="background-color: #dddddd;">
-    &nbsp; <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
-    <h2>Hours</h2>
-    <p>Saturdays, 4:30 to 6:00 (B and C groups) and 6:00 to 7:30 (A group)</p>
-    <h2>Phone Number</h2>
-    <p></p>
-    <h2>Location</h2>
-    <p>4402 23rd St Ste 216 Queens, New York, NY 11101<br>
-    Queens, New York</p><br>
-    <br>
-    <p>Non-profit Organization</p>
-  </div>
-  <center>
-    <img id="profPic" src="16992465_10212125340438234_2975146297278108328_o.jpg">
-  </center>
-  <h1 id="info">Who We Are</h1>
-  <p>(WIP) We are a Traditional Bosniak Folk dance group in Queens, New York. We do choregoraphies, folklor dances called "Kolo",such as Bosanksko Kolo, Šota dance from Bosnia & Herzegovina, Sandžak, Plav & Gusinje, and Albania.</p>
-  <div class="modal" id="mGallery">
-    <div class="modal-content">
-      <span class="close">&times;</span>
+  <head>
+    <title>KUD-Sedef</title>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 0.5">
+    <link rel = "stylesheet" type = "text/css" href = "index.css">
+    <script src = "index.js"></script>
+  </head>
+  <body>
+    <ul class = "topBar">
+      <li><a><img src = "150px-Coat_of_Arms_of_Bosnia_and_Herzegovina_(1992-1998).svg.png" height = "25px"></a></li>
+      <li><a href = "#home">KUD-Sedef</a></li>
+      <li><a href = "#information">Info</a></li>
+      <li><a href = "#gallery">Gallery</a></li>
+      <li><a href = "#members">Members</a></li>
+      <li><a href = "https://www.facebook.com/KudSedefLTD.NYC/" target = "_blank">KUD-Sedef Facebook</a></li>
+      <li><a><span onclick = "openNavl()">Upcoming Performances</span></a></li>
+      <li><a><span onclick = "openNavr()">About</span></a></li>
+    </ul>
+    <p id = "home"></p>
+    <div id="mySidenavl" class="sidenavl" style = "background-color: #dddddd;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+      <h2>Poconos</h2>
+      <p>Time:TBA</p>
+      <p>Location:TBA</p>
+      <h2>Day of the Bosnian Army</h2>
+      <p>Time:TBA</p>
+      <p>Location:TBA</p>
+    </div>
+    <div id="mySidenavr" class="sidenavr" style = "background-color: #dddddd;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <h2>Hours</h2>
+      <p>Saturdays, 4:30 to 6:00 (B and C groups) and 6:00 to 7:30 (A group)</p>
+      <h2>Phone Number</h2>
+      <p></p>
+      <h2>Location</h2>
+      <p>4402 23rd St Ste 216 Queens, New York, NY 11101<br>Queens, New York</p>
+      <br><br>
+      <p>Non-profit Organization</p>
+    </div>
+    <center><img src = "16992465_10212125340438234_2975146297278108328_o.jpg" id = "profPic"></center>
+    <div id = "information" style = "text-indent: 10px;">
+      <h1>Who We Are</h1>
+      <p>(WIP) We are a Traditional Bosniak Folk dance group in Queens, New York. We do choregoraphies, folklor dances called "Kolo",such as Bosanksko Kolo, Šota dance from Bosnia & Herzegovina, Sandžak, Plav & Gusinje, and Albania.</p>
+    </div>
+    <div id = "gallery" style = "text-indent: 10px;">
       <h1>Gallery</h1>
-      <center style="display: inline;">
-        <button class="slideShowLeft" onclick="plusDivs(-1)">&#10094;</button> <img class="slideShow" src="16804486_10212089303457332_8610963907336441030_o.jpg" width="560"> <img class="slideShow" src="images/IMG_0388.PNG" width="560"> <img class="slideShow" height="560" src="images/IMG_0483.JPG" style="-webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);"> <iframe allowfullscreen="true" class="slideShow" frameborder="0" height="322" scrolling="no" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FKudSedefLTD.NYC%2Fvideos%2F1363804067016318%2F&show_text=0&width=560" style="border:none;overflow:hidden" width="560"></iframe> <iframe allowfullscreen="true" class="slideShow" frameborder="0" height="322" scrolling="no" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FKudSedefLTD.NYC%2Fvideos%2F1109773125752748%2F&show_text=0&width=560" style="border:none;overflow:hidden" width="560"></iframe> <button class="slideShowRight" onclick="plusDivs(1)">&#10095;</button>
+      <center style = "display: inline;">
+        <button class = "slideShowLeft" onclick = "plusDivs(-1)">&#10094;</button>
+        <img class = "slideShow" src = "16804486_10212089303457332_8610963907336441030_o.jpg" width = "560">
+        <img class = "slideShow" src = "images/IMG_0388.PNG" width = "560">
+        <img class = "slideShow" src = "images/IMG_0483.JPG" height = "560" style = "-webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);">
+        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FKudSedefLTD.NYC%2Fvideos%2F1363804067016318%2F&show_text=0&width=560" width="560" height="322" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" class = "slideShow"></iframe>
+        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FKudSedefLTD.NYC%2Fvideos%2F1109773125752748%2F&show_text=0&width=560" width="560" height="322" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" class = "slideShow"></iframe>
+        <button class = "slideShowRight" onclick = "plusDivs(1)">&#10095;</button>
       </center>
     </div>
-  </div>
-  <div class="modal" id="mMembers">
-    <div class="modal-content">
-      <span class="close">&times;</span>
+    <div id = "members" style = "text-indent: 10px;">
       <h1>Members</h1>
       <h2>A+B Groups</h2>
-      <table width="100%">
+      <table width = "100%">
         <tr>
-          <th><img src="dfm.jpg" width="90%"><br>
-          Deni L (Choreographer)</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Emma B</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Nerma B</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Dalila D (TBA)</th>
-          <th><img src="dfm.jpg" width="90%"><br>
-          Demir D</th>
+          <th><img src = "dfm.jpg" width = "90%"><br>Deni L (Choreographer)</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Emma B</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Nerma B</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Dalila D (TBA)</th>
+          <th><img src = "dfm.jpg" width = "90%"><br>Demir D</th>
         </tr>
         <tr>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Lejla D (TBA)</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Amina D</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Eldina D</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Emma D (TBA)</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Kimeta D</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Lejla D (TBA)</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Amina D</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Eldina D</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Emma D (TBA)</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Kimeta D</th>
         </tr>
         <tr>
-          <th><img src="dfm.jpg" width="90%"><br>
-          Omar D</th>
-          <th><img src="dfm.jpg" width="90%"><br>
-          Salem D</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Jasmina H</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Jasmina K (TBA)</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Sabrina L</th>
+          <th><img src = "dfm.jpg" width = "90%"><br>Omar D</th>
+          <th><img src = "dfm.jpg" width = "90%"><br>Salem D</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Jasmina H</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Jasmina K (TBA)</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Sabrina L</th>
         </tr>
         <tr>
-          <th><img src="dfm.jpg" width="90%"><br>
-          Amar M</th>
-          <th><img src="dfm.jpg" width="90%"><br>
-          Semir M</th>
-          <th><img src="dfm.jpg" width="90%"><br>
-          Alem M</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Amina M</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Dzenana M</th>
+          <th><img src = "dfm.jpg" width = "90%"><br>Amar M</th>
+          <th><img src = "dfm.jpg" width = "90%"><br>Semir M</th>
+          <th><img src = "dfm.jpg" width = "90%"><br>Alem M</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Amina M</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Dzenana M</th>
         </tr>
         <tr>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Amila R</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Elma %</th>
-          <th><img src="dfm.jpg" width="90%"><br>
-          Aldin %</th>
-          <th><img src="dfm.jpg" width="90%"><br>
-          Alen %</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Amina %</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Amila R</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Elma %</th>
+          <th><img src = "dfm.jpg" width = "90%"><br>Aldin %</th>
+          <th><img src = "dfm.jpg" width = "90%"><br>Alen %</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Amina %</th>
         </tr>
       </table>
       <h2>C group</h2>
-      <table width="100%">
+      <table width = "100%">
         <tr>
-          <th><img src="images/DSCF0809.JPG" width="90%"><br>
-          Damian B</th>
-          <th><img src="images/DSCF0805.JPG" width="90%"><br>
-          Dian B</th>
-          <th><img src="images/DSCF0803.JPG" width="90%"><br>
-          Ajla B</th>
-          <th><img src="dfm.jpg" width="90%"><br>
-          Zejd B</th>
-          <th><img src="dpf.jpg" width="90%"><br>
-          Zejneb B</th>
+          <th><img src = "images/DSCF0809.JPG" width = "90%"><br>Damian B</th>
+          <th><img src = "images/DSCF0805.JPG" width = "90%"><br>Dian B</th>
+          <th><img src = "images/DSCF0803.JPG" width = "90%"><br>Ajla B</th>
+          <th><img src = "dfm.jpg" width = "90%"><br>Zejd B</th>
+          <th><img src = "dpf.jpg" width = "90%"><br>Zejneb B</th>
         </tr>
         <tr>
-          <th><img src="images/DSCF0806.JPG" width="90%"><br>
-          Berin D</th>
-          <th><img src="images/DSCF0802.JPG" width="90%"><br>
-          Belma H</th>
-          <th><img src="images/DSCF0801.JPG" width="90%"><br>
-          Velid H</th>
-          <th><img src="images/20170930_203516_HDR.jpg" width="90%"><br>
-          Omar M</th>
-          <th><img src="images/DSCF0807.JPG" width="90%"><br>
-          Ajla M</th>
+          <th><img src = "images/DSCF0806.JPG" width = "90%"><br>Berin D</th>
+          <th><img src = "images/DSCF0802.JPG" width = "90%"><br>Belma H</th>
+          <th><img src = "images/DSCF0801.JPG" width = "90%"><br>Velid H</th>
+          <th><img src = "images/20170930_203516_HDR.jpg" width = "90%"><br>Omar M</th>
+          <th><img src = "images/DSCF0807.JPG" width = "90%"><br>Ajla M</th>
         </tr>
       </table>
     </div>
-  </div>
-</body>
+  </body>
 </html>
