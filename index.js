@@ -41,7 +41,7 @@ window.onclick = function(event) {
     }
 }
 //Gallery
-var mGallery = document.getElementById('mGallery');
+/*var mGallery = document.getElementById('mGallery');
 var bGallery = document.getElementById("bGallery");
 var span = document.getElementsByClassName("close")[0];
 bGallery.onclick = function() {
@@ -54,7 +54,7 @@ window.onclick = function(event) {
     if (event.target == mGallery) {
         mGallery.style.display = "none";
     }
-}
+}*/
 //Members
 var mMembers = document.getElementById('mMembers');
 var bMembers = document.getElementById("bMembers");
