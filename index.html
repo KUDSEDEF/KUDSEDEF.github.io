@@ -5,29 +5,37 @@
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width = device-width, initial-scale = 0.5">
     <link rel = "stylesheet" type = "text/css" href = "index.css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
     <script src = "index.js"></script>
   </head>
   <body onload = "function plusDivs(n)">
-    <p style = "text-align: center;">This website is currently down. Pls check back in a few days. Thx.</p>
-    <!--<ul class = "topBar">
+    <ul class = "topBar">
       <li><a><img src = "150px-Coat_of_Arms_of_Bosnia_and_Herzegovina_(1992-1998).svg.png" height = "25px"></a></li>
       <li><a href = "#home">KUD-Sedef</a></li>
       <li><a href = "#information">Info</a></li>
       <li><a href = "#gallery">Gallery</a></li>
       <li><a href = "#members">Members</a></li>
       <li><a href = "https://www.facebook.com/KudSedefLTD.NYC/" target = "_blank">KUD-Sedef Facebook</a></li>
-      <li><a><span onclick = "openNavl()">Upcoming Performances</span></a></li>
+      <li><a><span onclick = "$('.ui.sidebar') .sidebar('toggle');">Upcoming Performances</span></a></li>
       <li><a><span onclick = "openNavr()">About</span></a></li>
     </ul>
-    <p id = "home"></p>
-    <div id="mySidenavl" class="sidenavl" style = "background-color: #dddddd;">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+    <div class="ui sidebar inverted vertical menu">
       <h2>Poconos</h2>
       <p>Time:TBA</p>
       <p>Location:TBA</p>
       <h2>Day of the Bosnian Army</h2>
       <p>Time:TBA</p>
       <p>Location:TBA</p>
+    </div>
+    <p id = "home"></p>
+    <div id="mySidenavl" class="sidenavl" style = "background-color: #dddddd;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+      <p>null</p>
     </div>
     <div id="mySidenavr" class="sidenavr" style = "background-color: #dddddd;">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -114,6 +122,6 @@
           <th><img src = "images/DSCF0807.JPG" width = "90%"><br>Ajla M</th>
         </tr>
       </table>
-    </div>-->
+    </div>
   </body>
 </html>
