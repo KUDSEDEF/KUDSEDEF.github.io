@@ -21,7 +21,7 @@
       <li><a href = "#gallery">Gallery</a></li>
       <li><a href = "#members">Members</a></li>
       <li><a href = "https://www.facebook.com/KudSedefLTD.NYC/" target = "_blank">KUD-Sedef Facebook</a></li>
-      <li><button onclick = "$('.ui.sidebar') .sidebar('toggle');">Upcoming Performances</button></li>
+      <li><button onclick = "$( "#mypanel" ).trigger( "updatelayout" );">Upcoming Performances</button></li>
       <li><a><span onclick = "openNavr()">About</span></a></li>
     </ul>
     <div data-role="panel" id="mypanel">
