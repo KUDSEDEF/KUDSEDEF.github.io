@@ -1,3 +1,44 @@
+import React, { Component } from 'react'
+import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react'
+
+class SidebarLeftOverlay extends Component {
+  state = { visible: false }
+
+  toggleVisibility = () => this.setState({ visible: !this.state.visible })
+
+  render() {
+    const { visible } = this.state
+    return (
+      <div>
+        <Button onClick={this.toggleVisibility}>Toggle Visibility</Button>
+        <Sidebar.Pushable as={Segment}>
+          <Sidebar as={Menu} animation='overlay' width='thin' visible={visible} icon='labeled' vertical inverted>
+            <Menu.Item name='Poconos'>
+              <h2>Poconos</h2>
+              <p>Time:TBA</p>
+              <p>Location:TBA</p>
+            </Menu.Item>
+            <Menu.Item name='Day of the Bosnian Army'>
+              <h2>Day of the Bosnian Army</h2>
+              <p>Time:TBA</p>
+              <p>Location:TBA</p>
+            </Menu.Item>
+          </Sidebar>
+          <Sidebar.Pusher>
+            <Segment basic>
+              <Header as='h3'>Application Content</Header>
+              <Image src='/assets/images/wireframe/paragraph.png' />
+            </Segment>
+          </Sidebar.Pusher>
+        </Sidebar.Pushable>
+      </div>
+    )
+  }
+}
+
+export default SidebarLeftOverlay
+
+
 function openNavr() {
     document.getElementById("mySidenavr").style.width = "250px";
 }
