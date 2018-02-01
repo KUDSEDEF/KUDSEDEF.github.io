@@ -44,7 +44,12 @@ li a:hover {
 }
 #footer {
 	background-color: #111;
-	width: 100%;
+	color: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    bottom: 0px;
 }
 .slideShowLeft {
 	background-color: #000000;
