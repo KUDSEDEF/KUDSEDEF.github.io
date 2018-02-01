@@ -37,14 +37,14 @@ li a:hover {
 #profPic {
 	width: 95%;
 }
-#information {
+#infoAndGallery {
 	background-color: #1e70bf;
 	width: 100%;
-}
-#gallery {
-	background-color: #ffffff;
-	width: 100%;
 	margin: auto;
+}
+#footer {
+	background-color: #111;
+	width: 100%;
 }
 .slideShowLeft {
 	background-color: #000000;
