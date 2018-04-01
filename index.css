@@ -34,6 +34,7 @@ body {
 }
 li {
     float: left;
+    height: 100%;
 }
 li a {
     display: block;
@@ -42,7 +43,7 @@ li a {
     text-decoration: none;
     color: white;
 }
-li a:hover {
+li:hover {
     background-color: #333;
 }
 .spacer {
