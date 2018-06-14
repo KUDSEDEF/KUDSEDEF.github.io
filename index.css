@@ -1,5 +1,4 @@
 /*BODY*/
-
 body {
     text-align: center;
     font-family: Lato;
@@ -26,9 +25,9 @@ body {
     top: 0;
     width: 100%;
     z-index: 2;
-    background: -moz-linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    background: -moz-linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
     background: -webkit-linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
-    background: -o-linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    background: -o-linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
 }
 li {
     display: inline-block;
@@ -54,18 +53,19 @@ li a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background: -moz-linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    background: -o-linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 2;
 }
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {background-color: #ddd}
 .show {display:block;}
 
 /*MOBILE MENU*/
