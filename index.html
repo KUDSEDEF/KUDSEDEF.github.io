@@ -25,7 +25,7 @@
 <!--DESKTOP BODY-->
 <div class="ui" width="100%" id="container">
     <ul class="topBar">
-        <li><a href="#home" onclick="closeModal()"><img
+        <li style="float:left"><a href="#home" onclick="closeModal()"><img
                 src="images/KUD-Sedef 25 Years.png"
                 height="27px"></a></li>
         <li><a href="#gallery" onclick="openModal();currentSlide(1)">Gallery</a></li>
@@ -51,14 +51,12 @@
                 </div>
             </div>
         </li>
-        <li style="float:right" onclick="closeModal()"><a href="#about">About</a></li>
+        <li style="float:right"><a href="#about" onclick="closeModal()">About</a></li>
     </ul>
 
     <div id="home">
-        <div class="spacer"></div>
-        <img src="images/KUD-Sedef 25 Years b.png" height="110px">
-        <img src="images/Cover.jpg" class="ui centered rounded image"
-             width="95%">
+        <img src="images/OldCover.jpg"
+             width="100%">
     </div>
 
     <div id="gallery">
@@ -72,7 +70,7 @@
 
                     <div class="mySlides">
                         <div class="numbertext">2 / 10</div>
-                        <img src="images/Cover.jpg" style="width:100%">
+                        <img src="images/OldCover.jpg" style="width:100%">
                     </div>
 
                     <div class="mySlides">
@@ -135,7 +133,7 @@
                         </div>
 
                         <div class="column" width="100%">
-                            <img class="demo" src="images/Cover.jpg"
+                            <img class="demo" src="images/OldCover.jpg"
                                  onclick="currentSlide(2)" alt="Poconos" width="95%">
                         </div>
 
@@ -617,7 +615,7 @@
         <div class="footer">
             <h2>About</h2>
             <div class="ui horizontal segments" style="background-color: #111;">
-                <div class="ui segment">
+                <div class="ui segment" style="padding: 0px 0px; width: 25%;">
                     <h3>Hours</h3>
                     <p>
                         Saturdays:</br>
@@ -625,7 +623,7 @@
                         B & C groups: 4:30 PM to 6:00 PM
                     </p>
                 </div>
-                <div class="ui segment">
+                <div class="ui segment" style="padding: 0px 0px; width: 25%;">
                     <h3>Studio</h3>
                     <p>
                         4402 23rd 23rd St #216</br>
@@ -633,9 +631,25 @@
                         Queens, New York
                     </p>
                 </div>
+                <div class="ui segment" style="padding: 0px 0px; width: 25%;">
+                    <h3>Resources</h3>
+                    <p>
+                        HTML 5 <i aria-hidden="true" class="html5 icon"></i> </br>
+                        CSS 3 <i aria-hidden="true" class="css3 icon"></i> </br>
+                        JS <i aria-hidden="true" class="js square icon"></i> </br>
+                        <a href="github.com" target="_blank">Github <i aria-hidden="true" class="github icon"></i> </br> </a>
+                        <a href="https://github.com/KUDSEDEF/KUDSEDEF.github.io" target="_blank">Code: <i aria-hidden="true" class="terminal icon"></i></a>
+
+                    </p>
+                </div>
+                <div class="ui segment" style="padding: 0px 0px; width: 25%;">
+                    <h3>Licensing</h3>
+                    <p>
+                        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">KUD-Sedef Website</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="kudsedef.github.io" property="cc:attributionName" rel="cc:attributionURL">Amar Maksumić & KUD-Sedef</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/KUDSEDEF/KUDSEDEF.github.io" rel="dct:source">https://github.com/KUDSEDEF/KUDSEDEF.github.io</a>.
+
+                    </p>
+                </div>
             </div>
-            </br>
-            <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">KUD-Sedef Website</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="kudsedef.github.io" property="cc:attributionName" rel="cc:attributionURL">Amar Maksumic & KUD-Sedef</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/KUDSEDEF/KUDSEDEF.github.io" rel="dct:source">https://github.com/KUDSEDEF/KUDSEDEF.github.io</a>.
             </br>
         </div>
     </div>
@@ -672,7 +686,7 @@
             <i aria-hidden="true" class="step backward icon"></i>
         </a>
     </div>
-    <img src="images/Cover.jpg" class="ui centered rounded image"
+    <img src="images/OldCover.jpg" class="ui centered rounded image"
          width="100%">
 
 
@@ -694,7 +708,7 @@
          style="width:100%"></br>
     <img src="images/Poconos2.jpg" class="ui centered rounded image"
          style="width:100%"></br>
-    <img src="images/Cover.jpg" class="ui centered rounded image"
+    <img src="images/OldCover.jpg" class="ui centered rounded image"
          style="width:100%"></br>
 
     <h2 id="4">Social Media & Contact</h2>
@@ -1124,10 +1138,18 @@
             Long Island City, New York, NY 11101</br>
             Queens, New York
         </p>
+        <h3>Resources</h3>
+        <p>
+            HTML 5 <i aria-hidden="true" class="html5 icon"></i> </br>
+            CSS 3 <i aria-hidden="true" class="css3 icon"></i> </br>
+            JS <i aria-hidden="true" class="js square icon"></i> </br>
+            <a href="github.com" target="_blank">Github <i aria-hidden="true" class="github icon"></i> </br> </a>
+            <a href="https://github.com/KUDSEDEF/KUDSEDEF.github.io" target="_blank">Code: <i aria-hidden="true" class="terminal icon"></i></a>
+
+        </p>
+        <h3>Licensing</h3>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">KUD-Sedef Website</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="kudsedef.github.io" property="cc:attributionName" rel="cc:attributionURL">Amar Maksumić & KUD-Sedef</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/KUDSEDEF/KUDSEDEF.github.io" rel="dct:source">https://github.com/KUDSEDEF/KUDSEDEF.github.io</a>.
         </br>
-        <p>Non-profit Organization</p>
-        </br>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">KUD-Sedef Website</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="kudsedef.github.io" property="cc:attributionName" rel="cc:attributionURL">Amar Maksumic & KUD-Sedef</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/KUDSEDEF/KUDSEDEF.github.io" rel="dct:source">https://github.com/KUDSEDEF/KUDSEDEF.github.io</a>.
         </br>
     </div>
 </div>
