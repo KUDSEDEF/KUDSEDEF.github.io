@@ -1,18 +1,13 @@
-#element::-webkit-scrollbar { 
-    display: none; 
-}
 /*BODY*/
-
 body {
     text-align: center;
+    font-family: Lato;
 }
-
 #mobile-container {
     display: none;
 }
 
 /*FOOTER*/
-
 .footer{
     background-color: #111;
     color: #FFFFFF;
@@ -20,43 +15,41 @@ body {
 .ui.horizontal.segments{
     background-color: #111;
 }
+
 /*DESKTOP MENU*/
 .topbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #111;
     position: fixed;
     top: 0;
     width: 100%;
-    height: 53px;
     z-index: 2;
+    background: -moz-linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
+    background: -o-linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
 }
 li {
-    float: left;
+    display: inline-block;
     height: 100%;
 }
 li a {
     display: block;
     text-align: center;
+    font-size: 15px;
     padding: 14px 16px;
     text-decoration: none;
     color: white;
-}
-li:hover {
-    background-color: #333;
 }
 .spacer {
     height: 53px;
 }
 
 /*DROPDOWN*/
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -65,20 +58,16 @@ li:hover {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 2;
 }
-
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-
 .dropdown-content a:hover {background-color: #ddd}
-
 .show {display:block;}
 
 /*MOBILE MENU*/
-
 #mobile-menu {
     position: fixed;
     z-index: 3;
@@ -93,28 +82,23 @@ li:hover {
 }
 
 /*LOADER*/
-
 .ui.active.dimmer {
     position: fixed;
 }
 
 /*GALLERY*/
-
 .row > .column {
     padding: 0 8px;
 }
-
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-
 .column {
     float: left;
     width: 25%;
 }
-
 .modal {
 
     display: none;
@@ -128,7 +112,6 @@ li:hover {
     overflow: auto;
     background-color: black;
 }
-
 .modal-content {
     position: relative;
     background-color: #fefefe;
@@ -137,7 +120,6 @@ li:hover {
     width: 90%;
     max-width: 1200px;
 }
-
 .close.cursor {
     color: white;
     position: absolute;
@@ -146,20 +128,16 @@ li:hover {
     font-size: 35px;
     font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
     color: #999;
     text-decoration: none;
     cursor: pointer;
 }
-
 .mySlides {
     display: none;
 }
-
-.prev,
-.next {
+.prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -174,21 +152,17 @@ li:hover {
     user-select: none;
     -webkit-user-select: none;
 }
-
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-
 .prev {
     left: 0;
     border-radius: 3px 0 0 3px;
 }
-.prev:hover,
-.next:hover {
+.prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -196,31 +170,25 @@ li:hover {
     position: absolute;
     top: 0;
 }
-
 .caption-container {
     text-align: center;
     background-color: black;
     padding: 2px 16px;
     color: white;
 }
-
 img.demo {
     opacity: 0.6;
 }
-
 .active,
 .demo:hover {
     opacity: 1;
 }
-
 img.hover-shadow {
     transition: 0.3s
 }
-
 .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
-
 
 /*CARDS*/
 .ui.card{
