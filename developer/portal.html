@@ -21,10 +21,20 @@
 <body>
   <h1>KUD-Sedef Developer Portal</h1> </br>
   <p>Enter account and password info below</p>
-  <form action="">
-    Account: <input type="text" name="account" value="example@kudsedef.com"><br>
-    Password: <input type="text" name="pswrd" value=""><br>
+  <form action="login();">
+    Account: <input type="text" id="account" value="example@kudsedef.com"><br>
+    Password: <input type="hidden" id="pswrd" value=""><br>
     <input type="submit" value="Submit">
   </form>
+  <script>
+    function login() {
+      var acc = document.getElementById("account").value;
+      var pswrd = document.getElementById("pswrd").value;
+      if (acc = "amarm@kudsedef.com" && pswrd = 217266) {
+        alert("You are being redirected...");
+      } else {
+        alert("Incorrect");
+      }
+    }
 </body>
 </html>
